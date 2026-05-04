@@ -1,0 +1,12 @@
+services:
+  vcb-db-staging:
+    image: postgres:17
+    container_name: vcb_fraud_db
+    environment:
+      POSTGRES_USER: chi_ba_intern
+      POSTGRES_PASSWORD: VcbPassword123
+      POSTGRES_DB: vcb_digibank_staging
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init-db:/docker-entrypoint-initdb.d
