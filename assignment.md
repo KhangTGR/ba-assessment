@@ -1,0 +1,3 @@
+VCB muốn nâng cấp luồng rút tiền QR. Khi khách hàng quét mã QR tại cây ATM, App không được cho rút ngay. Hệ thống AI Fraud Detection phải kiểm tra vị trí của App và ATM xem có khớp không, đồng thời phân tích hành vi chi tiêu gần đây để chấm điểm rủi ro.
+
+Nếu điểm rủi ro thấp, cho nhập số tiền và rút luôn. Nếu rủi ro trung bình, yêu cầu khách hàng thực hiện thêm bước eKYC FaceID ngay trên App. AI Face Matcher sẽ so sánh ảnh selfie với ảnh gốc trong hệ thống. Nếu rủi ro cao hoặc FaceID không khớp, khóa giao dịch và báo cho bộ phận vận hành. À, ATM vẫn phải kiểm tra tiền mặt và hạn mức như bình thường nhé!
